@@ -8,8 +8,6 @@ This is a test page
 
 [Link to another page](another-page)
 
-[Link to anchor on another page](another-page#header-2)
-
 ## Contents
 
 - [Header 2](#header-2)
@@ -25,6 +23,7 @@ This is a test page
   - [Vestibulum Tincidunt](#vestibulum-tincidunt)
   - [Aenean Eget Justo](#aenean-eget-justo)
   - [Proin At Ipsum](#proin-at-ipsum)
+
 
 ## Header 2
 Another paragraph
