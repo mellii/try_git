@@ -7,6 +7,7 @@ title: github page from docs
 This is a test page
 
 [Link to another page](another-page)
+
 [Link to anchor on another page](another-page#header-2)
 
 ## Contents
