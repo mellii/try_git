@@ -2,4 +2,8 @@
 ---
 
 @import "{{ site.theme }}";
-body { background-color: #404040; padding: 50px; font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #FFF5EB; font-weight: 400; }
+body { background-color: #303030; padding: 50px; font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #FFF5EB; font-weight: 400; }
+h1, h2, h3, h4, h5, h6 { color: #FFF5EB; margin: 0 0 20px; }
+h1 { font-size: 28px; }
+h2 { color: #FFF5EB; }
+h3, h4, h5, h6 { color: #FFF5EB; }
