@@ -6,6 +6,8 @@ title: github page from docs
 # This is a test
 This is a test page
 
+> This is a quote, version 2.5
+
 [Link to another page](another-page)
 
 ## Contents
