@@ -2,7 +2,9 @@
 ---
 
 @import "{{ site.theme }}";
-.highlight .cm { color: #57A64A; font-style: normal;}
+code { font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace; color: #C8AE75; background-color: 161616; font-size: 12px; }
+pre { font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace; color: #C8C8C8; background-color: 161616; font-size: 12px; }
+pre { padding: 8px 15px; background: #484848; border-radius: 5px; border: 1px solid #161616; overflow-x: auto; }.highlight .cm { color: #57A64A; font-style: normal;}
 .highlight .c1 { color: #57A64A; font-style: normal;}
 .highlight .cs { color: #57A64A; font-weight: bold; font-style: normal;}
 .highlight .c, .highlight .cd { color: #57A64A; font-style: normal;}
@@ -38,9 +40,7 @@ h1 { font-size: 28px; }
 h2 { color: #C0C0C0; }
 h3, h4, h5, h6 { color: #C0C0C0; }
 blockquote { border-left: 3px solid #39C; margin: 0; padding: 0 0 0 20px; font-style: italic; background-color: #272727; }
-code { font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace; color: #C8AE75; background-color: 161616; font-size: 12px; }
-pre { font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace; color: #C8C8C8; background-color: 161616; font-size: 12px; }
-pre { padding: 8px 15px; background: #484848; border-radius: 5px; border: 1px solid #161616; overflow-x: auto; }
+
 th, td { text-align: left; padding: 5px 10px; border-bottom: 1px solid #C0C0C0; }
 dt { color: #555; font-weight: 700; }
 th { color: #555; }
