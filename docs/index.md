@@ -52,6 +52,11 @@ public class ExampleClass : MonoBehaviour
     }
 }
 ```
+
+| Name | Type                 | Description |
+| :---           | :---                 | :--- |
+| camera         | `UnityEngine.Camera` | The camera that defines the user's current view point. |
+
 ___
 
 ## LOREM IPSUM
