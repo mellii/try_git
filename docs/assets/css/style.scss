@@ -2,11 +2,32 @@
 ---
 
 @import "{{ site.theme }}";
-.highlight .cs { color: #999999; font-weight: bold; font-style: italic; }
+.highlight .sb { color: #777; }
+.highlight .sc { color: #777; }
+.highlight .sd { color: #777; }
+.highlight .s2 { color: #777; }
+.highlight .se { color: #777; }
+.highlight .sh { color: #777; }
+.highlight .si { color: #777; }
+.highlight .sx { color: #777; }
+.highlight .s1 { color: #777; }
+.highlight .s { color: #777; }
+.highlight .ne { color: #005B94; font-weight: bold; }
+.highlight .nf { color: #005B94; font-weight: bold; }
+.highlight .nl { color: #005B94; font-weight: bold; }
+.highlight .nc { color: #702076; font-weight: bold; }
+.highlight .kc { color: #702076; font-weight: bold; }
+.highlight .kd { color: #702076; font-weight: bold; }
+.highlight .kn { color: #702076; font-weight: bold; }
+.highlight .kp { color: #702076; font-weight: bold; }
+.highlight .kr { color: #702076; font-weight: bold; }
+.highlight .k, .highlight .kv { color: #000000; font-weight: bold; }
+.highlight { background-color: #303030; }
+
 body { background-color: #383838; padding: 50px; font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #FFF5EB; font-weight: 400; }
 h1, h2, h3, h4, h5, h6 { color: #FFF5EB; margin: 0 0 20px; }
 h1 { font-size: 28px; }
 h2 { color: #FFF5EB; }
 h3, h4, h5, h6 { color: #FFF5EB; }
-code, pre { font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace; color: #C6BEB6; background-color: #303030; font-size: 12px; }
+code, pre { font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace; color: #C6BEB6; font-size: 12px; }
 pre { padding: 8px 15px; background: #484848; border-radius: 5px; border: 1px solid #e5e5e5; overflow-x: auto; }
