@@ -2,7 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
-code { font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace; color: #C8AE75; background-color: 161616; font-size: 12px; }
+
 pre { font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace; color: #C8C8C8; background-color: 161616; font-size: 12px; }
 pre { padding: 8px 15px; background: #484848; border-radius: 5px; border: 1px solid #161616; overflow-x: auto; }.highlight .cm { color: #57A64A; font-style: normal;}
 .highlight .c1 { color: #57A64A; font-style: normal;}
