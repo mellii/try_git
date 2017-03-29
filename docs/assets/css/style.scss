@@ -2,6 +2,10 @@
 ---
 
 @import "{{ site.theme }}";
+.highlight .cm { color: #999988; }
+.highlight .c1 { color: #999988; }
+.highlight .cs { color: #999999; font-weight: bold; }
+.highlight .c, .highlight .cd { color: #999988; }
 .highlight .sb { color: #777; }
 .highlight .sc { color: #777; }
 .highlight .sd { color: #777; }
