@@ -2,11 +2,11 @@
 ---
 
 @import "{{ site.theme }}";
-.highlight .cm { color: #999988; font-style: none;}
-.highlight .c1 { color: #999988; font-style: none;}
-.highlight .cs { color: #999999; font-weight: bold; font-style: none;}
-.highlight .c, .highlight .cd { color: #999988; font-style: none;}
-.highlight .ge { color: #000000; font-style: none; }
+.highlight .cm { color: #999988; font-style: normal;}
+.highlight .c1 { color: #999988; font-style: normal;}
+.highlight .cs { color: #999999; font-weight: bold; font-style: normal;}
+.highlight .c, .highlight .cd { color: #999988; font-style: normal;}
+.highlight .ge { color: #000000; font-style: normal; }
 .highlight .gp { color: #777777; }
 .highlight .sb { color: #777777; }
 .highlight .sc { color: #777777; }
