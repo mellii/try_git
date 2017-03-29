@@ -37,8 +37,10 @@ h1, h2, h3, h4, h5, h6 { color: #C6BEB6; margin: 0 0 20px; }
 h1 { font-size: 28px; }
 h2 { color: #C6BEB6; }
 h3, h4, h5, h6 { color: #C6BEB6; }
+blockquote { border-left: 2px solid #569CD6; margin: 0; padding: 0 0 0 20px; font-style: italic; }
 code, pre { font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace; color: #C8C8C8; background-color: 161616; font-size: 12px; }
 pre { padding: 8px 15px; background: #484848; border-radius: 5px; border: 1px solid #161616; overflow-x: auto; }
-
-dt { color: #777; font-weight: 700; }
-th { color: #777; }
+th, td { text-align: left; padding: 5px 10px; border-bottom: 1px solid #C6BEB6; }
+dt { color: #555; font-weight: 700; }
+th { color: #555; }
+hr { border: 0; background: #C6BEB6; height: 1px; margin: 0 0 20px; }
