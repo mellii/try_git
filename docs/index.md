@@ -34,6 +34,24 @@ public void SomeMethod(string name)
   print("This is my name: " + name);
 }
 ```
+
+```csharp
+using Unity.Engine;
+using Tobii.Gaming;
+
+public class ExampleClass : MonoBehaviour
+{
+    void Update()
+    {
+        GazePoint gazePoint = TobiiAPI.GetGazePoint();
+        if (gazePoint.IsValid) // Use 'gazePoint.IsWithinScreenBounds' if you only want points within the Screen bounds
+        {
+            // Note: Values can be negative if the user looks outside the game view.
+            print("Gaze point on Screen (X,Y): " + gazePoint.Screen.X + ", " + gazePoint.Screen.Y);
+        }
+    }
+}
+```
 ___
 
 ## LOREM IPSUM
